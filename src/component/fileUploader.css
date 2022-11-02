@@ -1,0 +1,35 @@
+.file-uploader-form {
+    width: 80%;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+}
+
+.file-uploader-form form {
+    width: 50%;
+
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.file-uploader-form form div {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.file-uploader-form form div input {
+    margin: auto;
+    cursor: pointer;
+}
+
+button {
+    width: 25%;
+    margin: auto;
+    padding: 0.5rem 0;
+    cursor: pointer;
+}

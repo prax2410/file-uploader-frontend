@@ -1,0 +1,11 @@
+.filename-list-container {
+    border: 1px solid red;
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+}
+
+.filename-list-container ul li {
+    cursor: pointer;
+    font-size: 2rem;
+}
