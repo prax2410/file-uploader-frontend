@@ -19,9 +19,6 @@ export const FileUploader = () => {
         axios.post('http://localhost:8000/upload', data)
             .then((e) => {
                 console.log('Success');
-            })
-            .catch((e) => {
-                console.log('Error', e);
             });
     }
 
